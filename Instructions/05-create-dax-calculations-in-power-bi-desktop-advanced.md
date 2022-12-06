@@ -49,7 +49,7 @@ lab:
 
 このタスクではこのラボ用の環境を設定します。
 
-*重要:前のラボから継続している (および、そのラボを正常に完了した) 場合は、このタスクを完了させず、次のタスクから続行してください。*
+**重要:前のラボから継続している (および、そのラボを正常に完了した) 場合は、このタスクを完了させず、次のタスクから続行してください。**
 
 1. Power BI Desktop を開くには、タスク バーにある Microsoft Power BI Desktop のショートカットをクリックします。
 
@@ -147,7 +147,7 @@ lab:
 
 1. 次の式に基づいて、**Sales** テーブルにメジャーを追加します。
 
-    "利便性のために、このラボのすべての DAX 定義は、**D:\PL300\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** ファイルからコピーできます。"**
+    "利便性のために、このラボのすべての DAX 定義は、**D:\PL300\Labs\01\Starter\05-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** ファイルからコピーできます。"
 
 
     **DAX**
