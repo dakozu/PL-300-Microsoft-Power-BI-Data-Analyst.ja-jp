@@ -199,7 +199,7 @@ lab:
 
     ![画像 49](Linked_image_Files/07-design-report-in-power-bi-desktop_image18.png)
 
-11. スライサーを一覧からドロップダウンに変換するには、スライサーの右上にある下向き矢印をクリックして、**[ドロップダウン]** を選択します。
+11. スライサーを一覧からドロップダウンに変換ために、書式設定ペインのビジュアルタブで [スライサーの設定] - [オプション] - [スタイル] を、**[ドロップダウン]** を選択します。
 
     ![画像 18](Linked_image_Files/07-design-report-in-power-bi-desktop_image19.png)
 
