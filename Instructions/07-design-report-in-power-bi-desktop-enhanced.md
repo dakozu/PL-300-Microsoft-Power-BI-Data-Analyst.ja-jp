@@ -465,11 +465,11 @@ lab:
 
 1. Microsoft Edge ブラウザー ウィンドウの Power BI サービスの **[ナビゲーション]** ペインで、 **[個人用ワークスペース]** を選択してから、 **[売上分析]** レポートを選択します。
 
-2. ドリルスルー レポートをテストするには、 **[Overview]** ページの **[Quantity by Category](カテゴリ別数量)** ビジュアルで **[Clothing]** バーを右クリックし、 **[ドリルスルー] \| [Product Details]** を選択します。
+2. ドリルスルー レポートをテストするには、 **[Overview]** ページの **[Quantity by Category]** ビジュアルで **[Clothing]** バーを右クリックし、 **[ドリルスルー] \| [Product Details]** を選択します。
 
     ![画像 130](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image55.png)
 
-3. **[Product Details]** ページが **[Clothing](衣類)** 用であることに注目してください。
+3. **[Product Details]** ページが **[Clothing]** 用であることに注目してください。
 
 4. ソース ページに戻るには、ページの左上隅の矢印ボタンをクリックします。
 
