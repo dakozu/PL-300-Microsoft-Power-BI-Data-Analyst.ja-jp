@@ -382,9 +382,13 @@ lab:
 
     ![画像 5659](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image43.png)
 
-2. クエリの名前を「**Region**」に変更します。
+1. クエリの名前を「**Region**」に変更します。
 
-3. 以下を除くすべての列を削除します。
+1. **SalesTerritoryAlternateKey** 列にフィルターを適用して、値 0 (ゼロ) を削除します。
+
+   ![画像 5660](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image44.png)
+
+1. 以下を除くすべての列を削除します。
 
     - SalesTerritoryKey
 
@@ -394,7 +398,7 @@ lab:
 
     - SalesTerritoryGroup
 
-4. 次の 3 つの列の名前を変更します。
+1. 次の 3 つの列の名前を変更します。
 
     - **SalesTerritoryRegion** を **Region** に
 
@@ -402,7 +406,7 @@ lab:
 
     - **SalesTerritoryGroup** を **Group** に
 
-5. ステータス バーで、クエリに 4 列と 10 行があることを確認します。
+1. ステータス バーで、クエリに 4 列と 10 行があることを確認します。
 
     ![画像 5661](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image45.png)
 
