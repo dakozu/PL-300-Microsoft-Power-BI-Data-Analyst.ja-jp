@@ -196,7 +196,7 @@ lab:
 
     列の品質機能を使用すると、列にある有効、エラー、または空の値の割合を簡単に判断できます。
 
-7. **「位置」** 列 (最後から 6 列目) で、行の 94% が空 (null) であることに注意してください。
+7. **「Position」** 列 (最後から 6 列目) で、行の 94% が空 (null) であることに注意してください。
 
     ![画像 38](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image24.png)
 
