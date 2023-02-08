@@ -384,7 +384,7 @@ lab:
 
 1. クエリの名前を「**Region**」に変更します。
 
-1. **SalesTerritoryAlternateKey** 列にフィルターを適用して、値 0 (ゼロ) を削除します。
+1. **SalesTerritoryKey** 列にフィルターを適用して、値 0 (ゼロ) を削除します。
 
    ![画像 5660](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image44.png)
 
