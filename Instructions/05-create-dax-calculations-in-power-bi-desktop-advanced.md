@@ -182,13 +182,13 @@ lab:
 
     ```
     Sales % All Region =  
-    ‎DIVIDE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ CALCULATE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ REMOVEFILTERS(Region)  
-    ‎ )  
-    ‎)
+    DIVIDE(  
+     SUM(Sales[Sales]),  
+     CALCULATE(  
+     SUM(Sales[Sales]),  
+     REMOVEFILTERS(Region)  
+     )  
+    )
     ```
 
 
@@ -209,13 +209,13 @@ lab:
 
     ```
     Sales % Country =  
-    ‎DIVIDE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ CALCULATE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ REMOVEFILTERS(Region[Region])  
-    ‎ )  
-    ‎)
+    DIVIDE(  
+     SUM(Sales[Sales]),  
+     CALCULATE(  
+     SUM(Sales[Sales]),  
+     REMOVEFILTERS(Region[Region])  
+     )  
+    )
     ```
 
 
@@ -239,16 +239,16 @@ lab:
 
     ```
     Sales % Country =  
-    ‎IF(  
-    ‎ ISINSCOPE(Region[Region]),  
-    ‎ DIVIDE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ CALCULATE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ REMOVEFILTERS(Region[Region])  
-    ‎ )  
-    ‎ )  
-    ‎)
+    IF(  
+     ISINSCOPE(Region[Region]),  
+     DIVIDE(  
+     SUM(Sales[Sales]),  
+     CALCULATE(  
+     SUM(Sales[Sales]),  
+     REMOVEFILTERS(Region[Region])  
+     )  
+     )  
+    )
     ```
 
 
@@ -266,16 +266,16 @@ lab:
 
     ```
     Sales % Group =  
-    ‎DIVIDE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ CALCULATE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ REMOVEFILTERS(  
-    ‎ Region[Region],  
-    ‎ Region[Country]  
-    ‎ )  
-    ‎ )  
-    ‎)
+    DIVIDE(  
+     SUM(Sales[Sales]),  
+     CALCULATE(  
+     SUM(Sales[Sales]),  
+     REMOVEFILTERS(  
+     Region[Region],  
+     Region[Country]  
+     )  
+     )  
+    )
     ```
 
 
@@ -291,20 +291,20 @@ lab:
 
     ```
     Sales % Group =  
-    ‎IF(  
-    ‎ ISINSCOPE(Region[Region])  
-    ‎ || ISINSCOPE(Region[Country]),  
-    ‎ DIVIDE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ CALCULATE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ REMOVEFILTERS(  
-    ‎ Region[Region],  
-    ‎ Region[Country]  
-    ‎ )  
-    ‎ )  
-    ‎ )  
-    ‎)
+    IF(  
+     ISINSCOPE(Region[Region])  
+     || ISINSCOPE(Region[Country]),  
+     DIVIDE(  
+     SUM(Sales[Sales]),  
+     CALCULATE(  
+     SUM(Sales[Sales]),  
+     REMOVEFILTERS(  
+     Region[Region],  
+     Region[Country]  
+     )  
+     )  
+     )  
+    )
     ```
 
 
@@ -336,7 +336,7 @@ lab:
 
     ```
     Sales YTD =  
-    ‎TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
+    TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
     ```
 
 
@@ -366,17 +366,17 @@ lab:
 
     ```
     Sales YoY Growth =  
-    ‎VAR SalesPriorYear =  
-    ‎ CALCULATE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ PARALLELPERIOD(  
-    ‎ 'Date'[Date],  
-    ‎ -12,  
-    ‎ MONTH  
-    ‎ )  
-    ‎ )  
-    ‎RETURN  
-    ‎ SalesPriorYear
+    VAR SalesPriorYear =  
+     CALCULATE(  
+     SUM(Sales[Sales]),  
+     PARALLELPERIOD(  
+     'Date'[Date],  
+     -12,  
+     MONTH  
+     )  
+     )  
+    RETURN  
+     SalesPriorYear
     ```
 
 
@@ -402,20 +402,20 @@ lab:
 
     ```
     Sales YoY Growth =  
-    ‎VAR SalesPriorYear =  
-    ‎ CALCULATE(  
-    ‎ SUM(Sales[Sales]),  
-    ‎ PARALLELPERIOD(  
-    ‎ 'Date'[Date],  
-    ‎ -12,  
-    ‎ MONTH  
-    ‎ )  
-    ‎ )  
-    ‎RETURN  
-    ‎ DIVIDE(  
-    ‎ (SUM(Sales[Sales]) - SalesPriorYear),  
-    ‎ SalesPriorYear  
-    ‎ )
+    VAR SalesPriorYear =  
+     CALCULATE(  
+     SUM(Sales[Sales]),  
+     PARALLELPERIOD(  
+     'Date'[Date],  
+     -12,  
+     MONTH  
+     )  
+     )  
+    RETURN  
+     DIVIDE(  
+     (SUM(Sales[Sales]) - SalesPriorYear),  
+     SalesPriorYear  
+     )
     ```
 
 
