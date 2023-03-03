@@ -51,7 +51,7 @@ lab:
 
 このタスクでは、Power BI にサインインしてこのラボ用の環境を設定します。
 
-*重要:前のラボで既に Power BI にサインインしている場合は、次のタスクから続行します。"*
+**重要:前のラボで既に Power BI にサインインしている場合は、次のタスクから続行します。"**
 
 1. Microsoft Edge を開くには、タスク バーの Microsoft Edge プログラムのショートカットをクリックします。
 
@@ -111,7 +111,7 @@ lab:
 
 1. Power BI Desktop を開くには、タスク バーにある Microsoft Power BI Desktop のショートカットをクリックします。
 
-    *重要:(前のラボで) Power BI Desktop を既に開いている場合は、そのインスタンスを閉じます。"*
+    **重要:(前のラボで) Power BI Desktop を既に開いている場合は、そのインスタンスを閉じます。"**
 
     ![画像 14](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image7.png)
 
