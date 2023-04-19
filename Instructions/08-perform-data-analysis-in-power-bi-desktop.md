@@ -159,7 +159,7 @@ lab:
 
 このタスクでは、アニメーション化できる散布図を作成します。
 
-1. **ページ 1** の名前を**散布図**に変更します。
+1. **ページ 1** の名前を**Scatter Chart**に変更します。
 
     ![画像 67](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image14.png)
 
@@ -221,7 +221,7 @@ lab:
 
 このタスクでは、予測を作成して、売上収益の将来の可能性を判断します。
 
-1. 新しいページを追加して、ページの名前を**予測**に変更します。
+1. 新しいページを追加して、ページの名前を**Forecast**に変更します。
 
     ![画像 66](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image20.png)
 
