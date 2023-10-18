@@ -77,7 +77,7 @@ lab:
 
 ![Picture103b](Linked_image_Files/07-design-report-in-power-bi-desktop_image103b.png)
 
-2. Power BI 管理ポータルを開くには、Edge ブラウザーの右上にある **[設定]** アイコンをクリックします。
+2. Edge ブラウザーでPower BI 管理ポータルを開き、右上にある **[設定]** アイコンをクリックします。
 
     ![画像 101](Linked_image_Files/07-design-report-in-power-bi-desktop_image101.png)
 
