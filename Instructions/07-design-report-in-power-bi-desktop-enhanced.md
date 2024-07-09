@@ -49,35 +49,8 @@ lab:
 
 この演習では、レポート ページ スライサーを同期します。
 
-### <a name="task-1-get-started--sign-in"></a>タスク 1: 開始する - サインイン
 
-このタスクでは、Power BI にサインインしてこのラボ用の環境を設定します。
-
-*重要:既に Power BI にサインインしている場合は、次のタスクから続行します。"*
-
-1. Microsoft Edge を開くには、タスク バーの Microsoft Edge プログラムのショートカットをクリックします。
-
-    ![画像 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
-
-2. Microsoft Edge ブラウザー ウィンドウで、**https://powerbi.microsoft.com** に移動します。
-
-    *ヒント:Microsoft Edge のお気に入りバーで、Power BI サービスのお気に入りを使用することもできます。"*
-
-3. **[サインイン]** (右上隅にあります) をクリックします。
-
-    ![画像 11](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image2.png)
-
-4. サインイン プロセスを完了します。
-
-5. Microsoft Edge からサインインを維持するかどうかを確認するメッセージが表示されたら、**[はい]** をクリックします。
-
-6. Microsoft Edge ブラウザー ウィンドウの Power BI サービスの **[ナビゲーション]** ペインで、**[マイ ワークスペース]** を展開します。
-
-    ![画像 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
-
-7. Microsoft Edge ブラウザー ウィンドウを開いたままにします。
-
-### <a name="task-2-get-started--open-report"></a>タスク 2: 開始する - レポートを開く
+### <a name="task-2-get-started--open-report"></a>タスク 1: 開始する - レポートを開く
 
 このタスクでは、スターター レポートを開いてこのラボ用の環境を設定します。
 
@@ -133,7 +106,7 @@ lab:
 
     ![画像 2](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image12.png)
 
-### <a name="task-3-sync-slicers"></a>**タスク 3: スライサーを同期する**
+### <a name="task-3-sync-slicers"></a>**タスク 2: スライサーを同期する**
 
 このタスクでは、**[Year]** スライサーと **[Region]** スライサーを同期します。
 
